@@ -4,7 +4,7 @@
 
 To compile Java programs; takes `.java` file as input and produces bytecode.
 
-`javac sample.java`
+`javac Sample.java`
 
 ## `java`
 
