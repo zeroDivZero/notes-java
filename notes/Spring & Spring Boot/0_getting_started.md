@@ -1,4 +1,4 @@
-# Getting Started
+# GETTING STARTED
 
 Use [Spring Initializr](https://start.spring.io) to create "web" project. In **Dependencies** dialog add **Spring Web**. Hit **Generate** button, download zip and unpack.
 
@@ -31,7 +31,7 @@ public class DemoApplication {
 }
 ```
 
-`@RestController` annotation tells Spring that this code describes endpoint available over web.
+`@RestController` annotation tells Spring this code describes endpoint available over web.
 
 `@GetMapping("/hello")` tells Spring `hello()` method handles requests sent to `http://localhost:8080/hello`.
 
