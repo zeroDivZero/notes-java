@@ -76,6 +76,20 @@ char firstInitial = firstName.charAt(0);
 String name = firstName + " " + lastName;
 ```
 
+### `equals()`
+
+```java
+if (string1.equals(string2)) {
+  // do something
+}
+```
+
+### `toLowerCase()`
+
+```java
+String lowerCaseString = myString.toLowerCase();
+```
+
 ## Relational Operators
 
 `>`, `<`, `==`, `>=`, `<=`, `!=`
@@ -87,5 +101,14 @@ if (num < 5) {
     // do something
 } else {
     // do something else
+}
+```
+
+## `while`
+
+```java
+while (isOn) {
+  // do something
+  // set `isOn` to `false` to exit loop
 }
 ```
