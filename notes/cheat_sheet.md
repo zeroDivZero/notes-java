@@ -112,3 +112,16 @@ while (isOn) {
   // set `isOn` to `false` to exit loop
 }
 ```
+
+## Function
+
+```java
+double calculateTotalMealPrice(double listedMealPrice, double tipRate, double taxRate) {
+    double tip = tipRate * listedMealPrice;
+    double tax = taxRate * listedMealPrice;
+    double total = listedMealPrice + tip + tax;
+    return total;
+}
+```
+
+If not returning value, specify `void`. Arguments optional.
