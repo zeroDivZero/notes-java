@@ -125,3 +125,43 @@ double calculateTotalMealPrice(double listedMealPrice, double tipRate, double ta
 ```
 
 If not returning value, specify `void`. Arguments optional.
+
+## Class
+
+```java
+public class Triangle {
+    // class variable
+    static int numOfSides = 3;
+
+    // instance variables
+    double base;
+    double height;
+    double sideLenOne;
+    double sideLenTwo;
+    double sideLenThree;
+
+    // constructor
+    public Triangle(double base, double height, double sideLenOne, double sideLenTwo, double sideLenThree) {
+        this.base = base;
+        this.height = height;
+        this.sideLenOne = sideLenOne;
+        this.sideLenTwo = sideLenTwo;
+        this.sideLenThree = sideLenThree;
+    }
+
+    // instance method
+    public double findArea() {
+        return 0.5 * (this.base * this.height);
+    }
+}
+```
+
+Usage:
+
+```java
+Triangle triangleA = new Triangle(15, 8, 15, 8, 17);
+double triangleAArea = triangleA.findArea();
+
+System.out.println(triangleA.base);
+System.out.println(Triangle.numOfSides);
+```
